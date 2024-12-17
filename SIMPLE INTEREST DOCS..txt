@@ -1,0 +1,27 @@
+SIMPLE INTEREST DOCUMENTATION :--
+
+1) Understand and analyze  the concept of application to avoid further conflict.
+
+2) Start building  UI  by keeping in mind that particular widget have to perform particular function .
+
+3) First create main program to start home screen.
+
+4) Take req variable  btw State<> and widget build.
+
+5) If appbar is long so extract it as a method.
+
+6) Body best practices take every widget in CONTAINER as a child.
+
+7) If any widget in body  is long so extract it as a method/custom widget.
+
+8) For keyboard zigzg error either take LISTVIEW as a parent or take "resizeToAvoidBottomPadding : false".
+
+9) To add LOGIC in button or in any widget create a function and add logic in  this function to avoid lenthy code.
+
+10) For RESET button either do all variable empty string or call build function to set state of app.
+
+11) To show validation wrap complete app in FORM and add validate logic in particulr widget and pass key.currentstate.validate() in particular button .
+
+12) For req only type in keyboard use inputTextFormat property .. for double use "Filter....allow(RegExp('[0-9.,]+'))]"
+
+
